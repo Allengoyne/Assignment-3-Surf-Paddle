@@ -1,0 +1,108 @@
+/*///font-family: 'Oswald', sans-serif;///*/
+/*///font-family: 'Open Sans', sans-serif;/// */
+*{
+
+}
+
+body {
+  overflow: auto;
+}
+
+
+.banner {
+  background-image: url(../assets/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 523px;
+  position: relative;
+}
+
+.banner h1 {
+  margin: 0;
+  background-image: url(../assets/logo.png);
+  background-repeat: no-repeat;
+  padding: 0 0 0 60px;
+  height: 45px;
+  position: absolute;
+  top: 16px;
+  left: 100px;
+  font-size: 20px;
+}
+
+.banner nav {
+  position: absolute;
+  right: 100px;
+  top: 15px;
+}
+
+
+.banner h2 {
+  position: absolute;
+  top: 180px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 90px;
+}
+
+.banner h3 {
+  position: absolute;
+  top: 352px;
+  width: 100%;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 20% 0 20%;
+}
+
+main {
+  width: 40%;
+  float: left;
+  margin-right: 10%;
+}
+
+aside {
+  width: 20%;
+  float: left;
+}
+
+.bottom {
+  clear: left;
+}
+
+.bottom ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background: blue;
+  height: 423px;
+}
+
+.bottom ul li {
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  float: left;
+}
+
+.bottom ul li img {
+  width: 100%;
+  position: relative;
+  opacity: .6;
+}
+.bottom ul li:hover img{
+  opacity: .9;
+}
+
+.bottom ul li h3 {
+  position: relative;
+  bottom: 87px;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  color: #fff;
+}
